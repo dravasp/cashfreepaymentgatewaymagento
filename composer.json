@@ -15,8 +15,8 @@
         "payment gateway",
         "wallets and emis",
         "netbanking and upi",
-		"validation api"
-		"verification suite"
+	"validation api",
+	"verification suite"
     ],
     "authors": [
         {
