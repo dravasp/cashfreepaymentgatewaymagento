@@ -43,7 +43,7 @@
     "autoload": {
         "files": ["registration.php"],
         "psr-4": {
-            "Cashfree\\Magento\\": ""
+            "Cashfree\\Cfcheckout\\": ""
         }
     }
 }
