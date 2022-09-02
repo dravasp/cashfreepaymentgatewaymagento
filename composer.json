@@ -32,7 +32,7 @@
             "https://github.com/dravasp/cashfreepaymentgatewaymagento/blob/main/README.md",
 			"https://docs.cashfree.com/docs/magento"
     },
-    "homepage": "https://www.cashfree.com/",
+    "homepage": "https://www.cashfree.com/"
     "suggest": {
         "magento/module-checkout-agreements": "100.*"
     },
