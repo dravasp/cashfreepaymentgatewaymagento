@@ -1,0 +1,50 @@
+{
+    "name": "dravasp/cashfreepaymentgatewaymagento",
+    "description": "Cashfree Internet Payment Gateway Module for Magento 2.4x optimised for Bitnami",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "require": {
+		"magento/framework": "~103.0.4",
+        	"php": "~5.5.0|~5.6.0|7.*|^8.0"
+    },
+    "keywords": [
+        "cashfree",
+        "magento commerce",
+        "secure payments",
+        "atmanirbhar bharat india",
+        "payment gateway",
+        "wallets and emis",
+        "netbanking and upi",
+		"validation api"
+		"verification suite"
+    ],
+    "authors": [
+        {
+            "name": "Action One",
+            "homepage": "https://bit.ly/3Ryit55",
+            "role": "Contributor"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/dravasp/cashfreepaymentgatewaymagento",
+        "issues": "https://github.com/cashfree/cashfree-magento",
+        "docs":
+            "https://github.com/dravasp/cashfreepaymentgatewaymagento/blob/main/README.md",
+			"https://docs.cashfree.com/docs/magento"
+    },
+    "homepage": "https://www.cashfree.com/",
+    "suggest": {
+        "magento/module-checkout-agreements": "100.*"
+    },
+    "type": "magento2-module",
+    "license": [
+		"OSL-3.0",
+        "AFL-3.0"
+		],
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Cashfree\\Magento\\": ""
+        }
+    }
+}
