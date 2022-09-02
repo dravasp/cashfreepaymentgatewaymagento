@@ -52,7 +52,6 @@ Instructions:
 
   - Cashfree Payments India Private Limited (India - IN) 
     - Karnataka Office - 1st Floor, Vaishnavi Summit, No. 6/B, Summit, 80 Feet Rd, Koramangala 1A Block, Koramangala 3 Block, Koramangala, Bengaluru, Karnataka 560034
-		+91 22 35155072
 		
 [] Important Emails for Corporate Communications and Risk Assessment
 	- Corporate Communications media@cashfree.com
