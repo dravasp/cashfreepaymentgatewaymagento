@@ -12,7 +12,7 @@ Login to Magento Admin > Configuration > Sales > Payment Methods
 Instructions:
 ==================
 
-[] Fill up Cashfree integration form - Ref. to https://bit.ly/3KVmzCh for Merchant Onboarding Requisites - https://www.cashfree.com/tnc/
+[] Fill up Cashfree integration form - Ref. to [https://bit.ly/3KVmzCh](https://bit.ly/3CVbizH) for Merchant Onboarding Requisites - https://www.cashfree.com/tnc/
   - Login to your Cashfree Account and Go to My Account > Integration > Try Test Environment
   - Connect with your Dedicated Account Manager at Cashfree
   - Complete KYC and Request Approval for Live Keys
@@ -80,3 +80,5 @@ Instructions:
 	- composer remove dravasp/cashfreepaymentgatewaymagento
 	- sudo magento-cli setup:upgrade
 	- sudo magento-cli module:status
+
+New Registration for Merchants - https://bit.ly/3CVbizH
