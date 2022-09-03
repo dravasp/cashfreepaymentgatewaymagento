@@ -1,5 +1,6 @@
 Cashfree Internet Payment Gateway Module for Magento 2.4x
 ============================================================
+![Cashfree Payments - Partner Affiliate Marketing - WE SKY PRINT LLP 02@4x-100](https://user-images.githubusercontent.com/27689043/188277587-488fb358-6ec4-44c5-b908-fd6c2d3b6bfa.jpg)
 
 Install using SSH
 cd /opt/bitnami/magento
@@ -56,6 +57,8 @@ Instructions:
 [] Important Emails for Corporate Communications and Risk Assessment
 	- Corporate Communications media@cashfree.com
 	
+![Cashfree Payments - WE SKY PRINT LLP - Partner Affiliate 02@4x-100](https://user-images.githubusercontent.com/27689043/188277633-3aeee4b7-0ef7-4072-a594-68c9ed423b61.jpg)
+
 [] Install using composer require dravasp/cashfreepaymentgatewaymagento
   - Please Do Not Run composer with sudo or install in project root directory / Please Do Not Upload Static Files to Webserver.
   - Request Integration Support or Seek Guidance from Repo Maintainers
