@@ -20,7 +20,7 @@ Instructions:
   - Complete KYC and Request Approval for Live Keys
 
 [] Changes for going Live.
-  - Insert your (variables) APP ID + SECRET KEY for Production Environment in Stores > Configrations > Sales > Payment Methods > Cashfree
+  - Insert your (variables) `APP ID` + `SECRET KEY` for Production Environment in Stores > Configrations > Sales > Payment Methods > Cashfree
 
 [] Enabling the module and configuring it with your Cashfree Merchant credentials
   - Login to your Magento Admin and go to Store > Configuration.
@@ -28,7 +28,7 @@ Instructions:
   - Scroll down the page and "Enable" the Cashfree module.
   - On the same page, click on "Payment Methods" on the sidebar under the section "SALES".
   - On this page, a "Cashfree" section will appear. Click on it if its not already open.
-  - Add your APP ID + SECRET KEY here. Also specify sandbox to "NO" Always. 
+  - Add your `APP ID` + `SECRET KEY` here. Also specify sandbox to "NO" Always. 
     click "Save Config".
     Additionally, if you want that only buyers from particular country or countries should be able to use Cashfree,  
     against the "Payment Applicable From" field, select "Specific Countries" and then select the countries in the box
@@ -50,6 +50,24 @@ Instructions:
   - Click on the first order in the data grid. This should be the order that you just placed
   - When the order details page opens up, look for "Payment Information" block. 
     Inside the block, you can see the latest status of the transaction on Cashfree end. 
+
+You will now be able to integrate Cashfree with your existing Merchant Services Account of choice where you host your Merchant Account
+
+Merchant Account or Cash Collection Service Account with India's Leading Banks allow high order value or high frequency volume (recurring trxns.) - 
+```HDFC Merchant Services, YES Bank Merchant Services, ICICI First Data, Kotak Mahindra Bank, ICICI Instabiz, SBIePay or SBI Merchant Services, Axis Bank Internet Payment Gateway```
+
+Benefits of Merchant Services as opposed to standard Integration - 
+```
+Get an integrated, rules-based, proactive risk management system that is supported by industry standard security
+Enjoy 99.9% uptime and a 24-hour helpdesk support
+Get customised MIS solutions for your business needs
+```
+
+You can apply for a Merchant Account with Cashfree + HDFC Merchant Services
+
+```
+HDFC Merchant Services eComm Support +91.2233557000 / +91.20.60017000
+```
 
 [] Corporate Office Address  - Payment Gateway with Global Presence
 
