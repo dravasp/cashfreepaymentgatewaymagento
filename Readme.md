@@ -14,7 +14,7 @@ Login to Magento Admin > Configuration > Sales > Payment Methods
 Instructions:
 ==================
 
-[] Fill up Cashfree integration form - Ref. to [https://bit.ly/3KVmzCh](https://bit.ly/3CVbizH) for Merchant Onboarding Requisites - https://www.cashfree.com/tnc/
+[] Fill up Cashfree integration form - Ref. to [https://bit.ly/3KVmzCh](https://bit.ly/3CVbizH) for Merchant Onboarding Requisites - `https://www.cashfree.com/tnc/`
   - Login to your Cashfree Account and Go to My Account > Integration > Try Test Environment
   - Connect with your Dedicated Account Manager at Cashfree
   - Complete KYC and Request Approval for Live Keys
@@ -69,13 +69,13 @@ You can apply for a Merchant Account with Cashfree + HDFC Merchant Services
 HDFC Merchant Services eComm Support +91.2233557000 / +91.20.60017000
 ```
 
-[] Corporate Office Address  - Payment Gateway with Global Presence
+[] Corporate Office Address  - Payment Gateway with Multiple Industry Verticals
 
   - Cashfree Payments India Private Limited (India - IN) 
     - Karnataka Office - 1st Floor, Vaishnavi Summit, No. 6/B, Summit, 80 Feet Rd, Koramangala 1A Block, Koramangala 3 Block, Koramangala, Bengaluru, Karnataka 560034
 		
 [] Important Emails for Corporate Communications and Risk Assessment
-	- Corporate Communications media@cashfree.com
+	- Corporate Communications media@cashfree.com / developer@cashfree.com
 	
 ![Cashfree Payments - WE SKY PRINT LLP - Partner Affiliate 02@4x-100](https://user-images.githubusercontent.com/27689043/188277633-3aeee4b7-0ef7-4072-a594-68c9ed423b61.jpg)
 
@@ -83,9 +83,9 @@ HDFC Merchant Services eComm Support +91.2233557000 / +91.20.60017000
   - Please Do Not Run composer with sudo or install in project root directory / Please Do Not Upload Static Files to Webserver.
   - Request Integration Support or Seek Guidance from Repo Maintainers
    
-  - Sandbox URL Set - https://sandbox.cashfree.com/pg/orders (Currently Enabled)
-  - Production URL Set - https://api.cashfree.com/pg/orders (Currently Enabled)
-  - Support and Documentation - https://www.cashfree.com/help/hc and https://docs.cashfree.com/docs/magento
+  - Sandbox URL Set - `https://sandbox.cashfree.com/pg/orders` (Currently Enabled)
+  - Production URL Set - `https://api.cashfree.com/pg/orders` (Currently Enabled)
+  - Support and Documentation - `https://www.cashfree.com/help/hc` and `https://docs.cashfree.com/docs/magento`
 
   - For Testing UAT run 
 		md5 <filename>
@@ -107,3 +107,6 @@ HDFC Merchant Services eComm Support +91.2233557000 / +91.20.60017000
 	
 
 New Registration for Merchants - https://bit.ly/3CVbizH
+
+Download Cashfree Merchant Dashboard via Google Play - `https://play.google.com/store/apps/details?id=com.cashfree.merchant&hl=en_IN&gl=US`
+
