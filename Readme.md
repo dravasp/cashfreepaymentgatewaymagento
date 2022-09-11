@@ -106,6 +106,16 @@ HDFC Merchant Services eComm Support +91.2233557000 / +91.20.60017000
 	sudo magento-cli module:status
 ```	
 
+  Hard Delete an Plugin / Extension
+```
+	sudo nano /bitnami/magento/app/etc/config.php
+	Page Down to Cashfree_Cfcheckout
+	Delete and make sure there are no trailing spaces
+	CTRL + X and Click Y to Save without Renaming the file
+```
+	composer dump-autoload
+	sudo magento-cli setup:upgrade
+```
 New Registration for Merchants - https://bit.ly/3CVbizH
 
 Download Cashfree Merchant Dashboard via Google Play - `https://play.google.com/store/apps/details?id=com.cashfree.merchant&hl=en_IN&gl=US`
