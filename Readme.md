@@ -116,6 +116,11 @@ HDFC Merchant Services eComm Support +91.2233557000 / +91.20.60017000
 	composer dump-autoload
 	sudo magento-cli setup:upgrade
 ```
+```
+	Wait for a few minutes RUN command
+	sudo /opt/bitnami/ctlscript.sh restart
+	Wait for a few minutes and Re-check
+```	
 New Registration for Merchants - https://bit.ly/3CVbizH
 
 Download Cashfree Merchant Dashboard via Google Play - `https://play.google.com/store/apps/details?id=com.cashfree.merchant&hl=en_IN&gl=US`
