@@ -28,6 +28,7 @@
     "support": {
         "source": "https://github.com/dravasp/cashfreepaymentgatewaymagento",
         "issues": "https://github.com/cashfree/cashfree-magento",
+	"rss": "https://github.com/dravasp/cashfreepaymentgatewaymagento/releases.atom",
         "docs":
             "https://github.com/dravasp/cashfreepaymentgatewaymagento/blob/main/README.md"
     },
