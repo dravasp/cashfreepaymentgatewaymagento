@@ -113,11 +113,10 @@ HDFC Merchant Services eComm Support +91.2233557000 / +91.20.60017000
 	Delete and make sure there are no trailing spaces
 	CTRL + X and Click Y to Save without Renaming the file
 ```
-	composer dump-autoload
+```	composer dump-autoload
 	sudo magento-cli setup:upgrade
 ```
-```
-	Wait for a few minutes RUN command
+```	Wait for a few minutes RUN command
 	sudo /opt/bitnami/ctlscript.sh restart
 	Wait for a few minutes and Re-check
 ```	
