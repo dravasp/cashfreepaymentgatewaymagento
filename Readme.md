@@ -79,7 +79,7 @@ HDFC Merchant Services eComm Support +91.2233557000 / +91.20.60017000
 	
 ![Cashfree Payments - WE SKY PRINT LLP - Partner Affiliate 02@4x-100](https://user-images.githubusercontent.com/27689043/188277633-3aeee4b7-0ef7-4072-a594-68c9ed423b61.jpg)
 
-[] Install using composer require dravasp/cashfreepaymentgatewaymagento
+[] Install using `composer require dravasp/cashfreepaymentgatewaymagento`
   - Please Do Not Run composer with sudo or install in project root directory / Please Do Not Upload Static Files to Webserver.
   - Request Integration Support or Seek Guidance from Repo Maintainers
    
@@ -99,12 +99,12 @@ HDFC Merchant Services eComm Support +91.2233557000 / +91.20.60017000
   - One-page Checkout Enabled for Magento Commerce OS - Bitnami
   
   Uninstall
-	
+```	
 	sudo magento-cli module:disable Cashfree_Cfcheckout
 	composer remove dravasp/cashfreepaymentgatewaymagento
 	sudo magento-cli setup:upgrade
 	sudo magento-cli module:status
-	
+```	
 
 New Registration for Merchants - https://bit.ly/3CVbizH
 
