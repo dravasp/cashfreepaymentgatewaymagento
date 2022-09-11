@@ -3,9 +3,11 @@ Cashfree Internet Payment Gateway Module for Magento 2.4x
 ![Cashfree Payments - Partner Affiliate Marketing - WE SKY PRINT LLP 02@4x-100](https://user-images.githubusercontent.com/27689043/188277587-488fb358-6ec4-44c5-b908-fd6c2d3b6bfa.jpg)
 
 Install using SSH
+```
 cd /opt/bitnami/magento
-composer require dravasp / cashfreepaymentgatewaymagento:dev-master
+composer require dravasp/cashfreepaymentgatewaymagento:dev-master
 sudo magento-cli setup:upgrade
+```
 
 Login to Magento Admin > Configuration > Sales > Payment Methods
 
@@ -71,14 +73,19 @@ Instructions:
 		md5 <filename>
 
   - Example
+	```
 	md5 /opt/bitnami/magento/var/log/system.log
+	```
 	inside SSH Terminal to provide verification to VAS Team
 	
   - One-page Checkout Enabled for Magento Commerce OS - Bitnami
   
   Uninstall
-	- composer remove dravasp/cashfreepaymentgatewaymagento
-	- sudo magento-cli setup:upgrade
-	- sudo magento-cli module:status
+	
+	sudo magento-cli module:disable Cashfree_Cfcheckout
+	composer remove dravasp/cashfreepaymentgatewaymagento
+	sudo magento-cli setup:upgrade
+	sudo magento-cli module:status
+	
 
 New Registration for Merchants - https://bit.ly/3CVbizH
