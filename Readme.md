@@ -68,6 +68,9 @@ You can apply for a Merchant Account with Cashfree + HDFC Merchant Services
 ```
 HDFC Merchant Services eComm Support +91.2233557000 / +91.20.60017000
 ```
+```
+Locate HDFC Branch near you - https://v1.hdfcbank.com/htdocs/common/hdfcbank_branch_ifsc-code.html?src=find
+````
 
 [] Corporate Office Address  - Payment Gateway with Multiple Industry Verticals
 
@@ -111,7 +114,7 @@ HDFC Merchant Services eComm Support +91.2233557000 / +91.20.60017000
 	sudo nano /bitnami/magento/app/etc/config.php
 	Page Down to Cashfree_Cfcheckout
 	Delete and make sure there are no trailing spaces
-	CTRL + X and Click Y to Save without Renaming the file
+	CTRL/CMD + X and Click Y to Save without Renaming the file
 ```
 ```	composer dump-autoload
 	sudo magento-cli setup:upgrade
