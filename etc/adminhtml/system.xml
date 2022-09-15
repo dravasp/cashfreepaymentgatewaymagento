@@ -3,7 +3,7 @@
     <system>
         <section id="payment">
             <group id="cashfree" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="0">
-                <label><![CDATA[Cashfree&nbsp;&nbsp;<i>Payments Platform for Marketplaces and Fintechs</i>]]></label>
+                <label><![CDATA[Cashfree&nbsp;&nbsp;<i>Payments Platform for Marketplaces and Fintech Companies</i>]]></label>
                 <comment>
                     <![CDATA[<a href="https://merchant.cashfree.com/merchant/login" target="_blank">Get started with a Cashfree account</a>]]>
                 </comment>
@@ -15,11 +15,11 @@
                     <label>Title</label>
                 </field>
                 <field id="app_id" translate="label" type="obscure" sortOrder="62" showInDefault="1" showInWebsite="1" showInStore="0">
-                    <label>App Id</label>
+                    <label>Cashfree App ID</label>
                     <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
                 </field>
                 <field id="secret_key" translate="label" type="obscure" sortOrder="63" showInDefault="1" showInWebsite="1" showInStore="0">
-                    <label>Secret Key</label>
+                    <label>Cashfree Secret Key</label>
                     <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
                 </field>
                 <field id="payment_action" translate="label" type="select" sortOrder="64" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -49,7 +49,7 @@
                     <config_path>payment/cashfree/specificcountry</config_path>
                 </field>
                 <field id="enable_invoice" translate="label" type="select" sortOrder="70" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Enabled Invoice</label>
+                    <label>Enable Invoice</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <config_path>payment/cashfree/enable_invoice</config_path>
                 </field>
@@ -58,7 +58,7 @@
                     <config_path>payment/cashfree/sort_order</config_path>
                 </field>
                 <field id="in_context" translate="label" type="select" sortOrder="72" showInDefault="1" showInWebsite="1" showInStore="0">
-                    <label>In-Context Checkout</label>
+                    <label>Cashfree In-Context Checkout iFrame Load</label>
                     <comment>Checkout flow that keeps customers local to your website.</comment>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
