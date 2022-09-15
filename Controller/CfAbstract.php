@@ -192,7 +192,7 @@ abstract class CfAbstract extends \Magento\Framework\App\Action\Action
                 return $validation_content;
             }
         } else {
-            $error_message = "Cashfree Error: Order does not found. Please contact to merchant for support.";
+            $error_message = "Cashfree Error: Order does not exist. Please contact Cashfree Merchant Desk.";
             $validation_content['errorMsg'] = $error_message;
             $validation_content['status'] = false;
             $this->logger->info(__("Cashfree Error: ".$error_message));
