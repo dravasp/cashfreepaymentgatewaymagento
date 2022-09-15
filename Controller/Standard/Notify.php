@@ -8,7 +8,7 @@ use Magento\Framework\App\Request\InvalidRequestException;
 
 /**
  * Class Notify
- * To notify customer when if there is any netword falure during payment
+ * To notify the customer for network falure during payment processing.
  * @package Cashfree\Cfcheckout\Controller\Standard\Notify
  */
 class Notify extends \Cashfree\Cfcheckout\Controller\CfAbstract implements CsrfAwareActionInterface
