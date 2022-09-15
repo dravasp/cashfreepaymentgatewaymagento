@@ -108,7 +108,7 @@ class Response extends \Cashfree\Cfcheckout\Controller\CfAbstract
     }
 
     /**
-     * Get order response from cashfree to complete order
+     * Get order response from Cashfree to complete order.
      * @return array
      */
     public function execute()
@@ -130,28 +130,28 @@ class Response extends \Cashfree\Cfcheckout\Controller\CfAbstract
                 if($mageOrderStatus === 'pending') {
                     $this->processPayment($validateOrder['transaction_id'], $order);
                 }
-                $this->messageManager->addSuccess(__('Your payment was successful'));
+                $this->messageManager->addSuccess(__('Congratulations! Your payment was Successful!'));
                 $resultRedirect->setPath('checkout/onepage/success');
                 return $resultRedirect;
 
             } else if ($validateOrder['status'] == "CANCELLED") {
-                $this->messageManager->addWarning(__('Your payment was cancel'));
+                $this->messageManager->addWarning(__('Your payment was Cancelled. Please contact Cashfree Merchant Desk.'));
                 $this->checkoutSession->restoreQuote();
                 $resultRedirect->setPath('checkout/cart');
                 return $resultRedirect;
             } else if ($validateOrder['status'] == "FAILED") {
-                $this->messageManager->addErrorMessage(__('Your payment was failed'));
+                $this->messageManager->addErrorMessage(__('Your payment Failed! Please contact Cashfree Merchant Desk.'));
                 $order->cancel()->save();
                 $resultRedirect->setPath('checkout/onepage/failure');
                 return $resultRedirect;
             } else if($validateOrder['status'] == "PENDING"){
                 $this->checkoutSession->restoreQuote();
-                $this->messageManager->addWarning(__('Your payment is pending'));
+                $this->messageManager->addWarning(__('Your payment is Pending.'));
                 $resultRedirect->setPath('checkout/cart');
                 return $resultRedirect;
             } else{
                 $this->checkoutSession->restoreQuote();
-                $this->messageManager->addErrorMessage(__('There is an error. Payment status is pending'));
+                $this->messageManager->addErrorMessage(__('An Error has occurred. Payment status is pending.'));
                 $resultRedirect->setPath('checkout/cart');
                 return $resultRedirect;
             }
@@ -187,7 +187,7 @@ class Response extends \Cashfree\Cfcheckout\Controller\CfAbstract
                 $response->setHttpResponseCode($code);
                 return $response;
             } else {
-                $responseContent['message'] = "Cashfree Payment details missing.";
+                $responseContent['message'] = "Cashfree Payment is able to Validate Order details - incomplete or missing. Please contact Cashfree Merchant Desk.";
             }
         }
 
