@@ -127,3 +127,21 @@ New Registration for Merchants - https://bit.ly/3CVbizH
 
 Download Cashfree Merchant Dashboard via Google Play - `https://play.google.com/store/apps/details?id=com.cashfree.merchant&hl=en_IN&gl=US`
 
+Optional Method to Allow Private Repositories via Composer
+`composer config --global --auth http-basic.repo.packagist.com token c6addb89a67b2822d352d114`
+
+	OR
+ 
+`cd /opt/bitnami/magento`
+`nano composer.json`
+
+	Add the following to your composer.json by
+```    
+	"repositories": [{
+		"type": "composer",
+      		"url": "https://repo.packagist.com/our-company/cool-client-proj"
+			}, 
+	{"packagist.org": false}]
+```
+    Run 
+	`composer update`
