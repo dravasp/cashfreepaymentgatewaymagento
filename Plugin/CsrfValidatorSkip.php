@@ -18,6 +18,6 @@ class CsrfValidatorSkip
         if ($request->getModuleName() == 'cashfree') {
             return; // Skip CSRF check
         }
-        $proceed($request, $action); // Proceed Magento 2 core functionalities
+        $proceed($request, $action); // Proceed Magento 2.4x core functionalities
     }
 }
