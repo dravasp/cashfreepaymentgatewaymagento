@@ -195,7 +195,7 @@ define(
                     if(data.order && data.order.errorText) {
                         self.isPaymentProcessing.reject(data.order.errorText);
                     } else {
-                        self.isPaymentProcessing.reject("Your transaction has been failed.");
+                        self.isPaymentProcessing.reject("Your transaction has Failed.");
                     }
                 }
                 const dismissCallback = function (data) {
@@ -266,7 +266,7 @@ define(
                         if(response.responseJSON && response.responseJSON.message) {
                             self.isPaymentProcessing.reject(response.responseJSON.message);
                         } else {
-                            self.isPaymentProcessing.reject("Not a valid Cashfree Payments.");
+                            self.isPaymentProcessing.reject("Not a valid Cashfree Payment");
                         }
                         self.isPlaceOrderActionAllowed(true);
                     }
