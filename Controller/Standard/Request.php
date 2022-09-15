@@ -6,7 +6,7 @@ use Magento\Framework\Controller\ResultFactory;
 
 /**
  * Class Request
- * Generate request datat to create order and proceed payment
+ * Generate new request to create order to process customer payment.
  * @package Cashfree\Cfcheckout\Controller\Standard\Notify
  */
 class Request extends \Cashfree\Cfcheckout\Controller\CfAbstract
@@ -118,7 +118,7 @@ class Request extends \Cashfree\Cfcheckout\Controller\CfAbstract
     }
 
     /**
-     * Get order token for process the payment
+     * Get order token for payment processing.
      * @return array
      */
     public function execute()
@@ -206,7 +206,7 @@ class Request extends \Cashfree\Cfcheckout\Controller\CfAbstract
 
             if ($err) {
                 $responseContent = [
-                    'message'       => 'Unable to create your order. Please contact support.',
+                    'message'       => 'Unable to create your order. Please contact Cashfree Merchant Desk.',
                     'parameters'    => []
                 ];
             }
@@ -232,14 +232,14 @@ class Request extends \Cashfree\Cfcheckout\Controller\CfAbstract
         
             } else {
                 $responseContent = [
-                    'message'       => 'Unable to create your order. Please contact support.',
+                    'message'       => 'Unable to create your order. Please contact Cashfree Merchant Desk.',
                     'parameters'    => []
                 ];
             }
             
         } else {
             $responseContent = [
-                'message'       => 'Email is mandatory. Please add a valid email.',
+                'message'       => 'Alert! Email is Required. Please add a valid email address.',
                 'parameters'    => []
             ];
         }
