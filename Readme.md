@@ -20,7 +20,7 @@ Instructions:
   - Complete KYC and Request Approval for Live Keys
 
 [] Changes for going Live.
-  - Insert your (variables) `APP ID` + `SECRET KEY` for Production Environment in Stores > Configrations > Sales > Payment Methods > Cashfree
+  - Insert your (variables) `APP ID` + `SECRET KEY` for Production Environment in Stores > Configuration > Sales > Payment Methods > Cashfree
 
 [] Enabling the module and configuring it with your Cashfree Merchant credentials
   - Login to your Magento Admin and go to Store > Configuration.
