@@ -116,9 +116,14 @@ Locate HDFC Branch near you - https://v1.hdfcbank.com/htdocs/common/hdfcbank_bra
 	Delete and make sure there are no trailing spaces
 	CTRL/CMD + X and Click Y to Save without Renaming the file
 ```
-```	composer dump-autoload
+	
+```	
+	
+	composer dump-autoload
 	sudo magento-cli setup:upgrade
+	
 ```
+	
 ```	Wait for a few minutes RUN command
 	sudo /opt/bitnami/ctlscript.sh restart
 	Wait for a few minutes and Re-check
