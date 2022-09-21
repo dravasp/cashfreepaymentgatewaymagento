@@ -152,3 +152,7 @@ Optional Method to Allow Private Repositories via Composer
 ```
   Run 
 	`composer update`
+
+Subscribe to `MATRIX Communications WAP Service` for `Terminal` Access even in Remote Locations.
+	- Register your interest at https://matrix.in
+	- Complete KYC with TRAI Required
