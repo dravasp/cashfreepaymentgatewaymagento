@@ -164,7 +164,9 @@ As per payment gateway policies and liability shift clause, it is merchant respo
 View Patch Type - `Required` or `Optional` (in the Display Patch Grid by following commands below)
 The great part about using Bitnami Magento OS is they are all updated where mandatory security patches are applied to each release. You can view all patches applicable to your specific installation - `https://devdocs.magento.com/quality-patches/tool.html#patch-grid`
 
-Steps to Follow -
+Steps to Follow - Login to SSH > cd to Magento Directory
+`cd /opt/bitnami/magento`
+
 ```
 sudo magento-cli maintenance:enable
 composer require magento/quality-patches
