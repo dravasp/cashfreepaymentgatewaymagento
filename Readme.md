@@ -247,3 +247,14 @@ Steps to Revert via Single Command -
 | ACSD-44851 | Optional  |  ACSD
 | ACSD-45675 | Optional  |  ACSD
 | ACSD-46869 | Optional  |  ACSD
+
+```
+sudo magento-cli cache:clean
+sudo magento-cli indexer:reindex
+sudo magento-cli maintenance:disable
+```
+
+You can avoid indexer:reindex command by entering
+```
+sudo magento-cli setup:upgrade
+```
