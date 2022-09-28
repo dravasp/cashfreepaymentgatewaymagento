@@ -156,3 +156,94 @@ Optional Method to Allow Private Repositories via Composer
 Subscribe to `MATRIX Communications WAP Service` for `Terminal` Access even in Remote Locations.
 	- Register your interest at https://matrix.in
 	- Complete KYC with TRAI Required
+
+
+
+As per payment gateway policies and liability shift clause, it is merchant responsibility to adhere to PCI Compliant CMS through Payment Acceptance Directives
+
+View Patch Type - `Required` or `Optional` (in the Display Patch Grid by following commands below)
+The great part about using Bitnami Magento OS is they are all updated where mandatory security patches are applied to each release. You can view all patches applicable to your specific installation - `https://devdocs.magento.com/quality-patches/tool.html#patch-grid`
+
+Steps to Follow -
+```
+sudo magento-cli maintenance:enable
+composer require magento/quality-patches
+./vendor/bin/magento-patches status
+```
+```
+Select '2' Adobe Commerce Support followed by '1' to Display All Available Requred and Optional Patches
+./vendor/bin/magento-patches apply MDVA-30106 MDVA-12304
+```
+
+```
+Steps to Revert via Single Command -
+./vendor/bin/magento-patches revert MDVA-30106 MDVA-12304
+```
+
+| Magento 2.4x on Bitnami  | Optional/REQUIRED  |  Patch Prefix
+| ------------- | ------------- | ------------- |
+| MDVA-30106 | Optional  |  MDVA
+| MDVA-12304 | Optional  |  MDVA
+| MDVA-19640 | Optional  |  MDVA
+| MDVA-41061-V4 | Optional  |  MDVA
+| MDVA-38346 | Optional  |  MDVA
+| MDVA-38626 | Optional  |  MDVA
+| MDVA-38728 | Optional  |  MDVA
+| MDVA-41305-V2 | Optional  |  MDVA
+| MDVA-42790 | Optional  |  MDVA
+| MDVA-42269 | Optional  |  MDVA
+| MDVA-42237 | Optional  |  MDVA
+| MDVA-42410 | Optional  |  MDVA
+| MDVA-41136 | Optional  |  MDVA
+| MDVA-41628 | Optional  |  MDVA
+| MDVA-42950 | Optional  |  MDVA
+| MDVA-42689 | Optional  |  MDVA
+| MDVA-41229 | Optional  |  MDVA
+| MDVA-39605 | Optional  |  MDVA
+| MDVA-43862 | Optional  |  MDVA
+| MDVA-43824 | Optional  |  MDVA
+| MDVA-43491 | Optional  |  MDVA
+| MDVA-43601 | Optional  |  MDVA
+| MDVA-44188 | Optional  |  MDVA
+| MDVA-42283 | Optional  |  MDVA
+| MDVA-43983 | Optional  |  MDVA
+| MDVA-44100 | Optional  |  MDVA
+| MDVA-43605 | Optional  |  MDVA
+| MDVA-43102 | Optional  |  MDVA
+| MDVA-43178 | Optional  |  MDVA
+| MDVA-44887 | Optional  |  MDVA
+| MDVA-44660 | Optional  |  MDVA
+| MDVA-44703 | Optional  |  MDVA
+| MDVA-44940 | Optional  |  MDVA
+| MDVA-44562 | Optional  |  MDVA
+| MDVA-43167 | Optional  |  MDVA
+| MDVA-42807 | Optional  |  MDVA
+
+```
+Select '2' Adobe Commerce Support followed by '1' to Display All Available Requred and Optional Patches
+./vendor/bin/magento-patches apply ACSD-45143 ACSD-44591
+```
+
+```
+Steps to Revert via Single Command -
+./vendor/bin/magento-patches revert ACSD-45143 ACSD-44591
+```
+
+
+| Magento 2.4x on Bitnami  | Optional/REQUIRED  |  Patch Prefix
+| ------------- | ------------- | ------------- |
+| ACSD-45143 | Optional  |  ACSD
+| ACSD-44591 | Optional  |  ACSD
+| ACSD-45169 | Optional  |  ACSD
+| ACSD-45424 | Optional  |  ACSD
+| ACSD-46146 | Optional  |  ACSD
+| ACSD-45255 | Optional  |  ACSD
+| ACSD-45488 | Optional  |  ACSD
+| ACSD-45754 | Optional  |  ACSD
+| ACSD-46213 | Optional  |  ACSD
+| ACSD-46192 | Optional  |  ACSD
+| ACSD-46404 | Optional  |  ACSD
+| ACSD-46703 | Optional  |  ACSD
+| ACSD-44851 | Optional  |  ACSD
+| ACSD-45675 | Optional  |  ACSD
+| ACSD-46869 | Optional  |  ACSD
