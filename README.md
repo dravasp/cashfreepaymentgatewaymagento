@@ -12,7 +12,6 @@ Cashfree Internet Payment Gateway Module for Magento 2.4x
 ![YouTube Channel](https://img.shields.io/youtube/channel/subscribers/UCX06yVYIREbM4lMRwVi_6Aw)
 ![Github Followers](https://img.shields.io/github/followers/dravasp?style=social)
 ![Brand Website](https://img.shields.io/website?down_color=not%20running&down_message=site%20under%20maintainence&style=flat-square&up_message=active%20and%20running&url=https%3A%2F%2Fcashfree.com)
-![GitHub](https://img.shields.io/github/license/dravasp/cashfreepaymentgatewaymagento?logo=github&style=flat-square)
 
 Install using SSH
 ```
